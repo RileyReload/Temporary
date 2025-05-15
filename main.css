@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+}
+
+.bottomBar{
+    padding: 10px;
+    text-align: center;
+}
+
+.resourceDisplay{
+    color: white;
+    text-align: center;
+}
+
+.gameButtons{
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+.nebulaBtns{
+    color: white;
+    background-color: black;
+    border-color: white;
+    border-radius: 8px;
+}
+#coalesceBtn{
+    width: 200px;
+    height: 120px;
+}
+
+
+
+.inlineBlock{
+    display: inline-block;
+}
+
+

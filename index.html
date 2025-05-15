@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./game.js" type="module"></script>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temporary</title>
+</head>
+<body>
+    <div class="topBar">
+
+        <div class="resourceDisplay">
+           <div id="starsDisplay"></div>
+           <div id="starsPSDisplay"></div>
+        </div>
+        
+    </div>
+
+    <div></div>
+
+
+    <div class="mainGame">
+        <div class="gameButtons">
+
+            <div class="nebulaBtns"> 
+            <div> <button class="nebulaBtns" id="nebula1" style="width:  100px; height: 50px;"></button> <p style="color: white;" class="inlineBlock" id="nebula1PurchaseMult"></p> </div> <br>
+            <div class="coalescence1" style="display: none;"> <button class="nebulaBtns" id="nebula2" style="width:  100px; height: 50px;"></button> <p style="color: white;" class="inlineBlock" id="nebula2PurchaseMult"></p> </div> <br> 
+            <div class="coalescence1" style="display: none;"> <button class="nebulaBtns" id="nebula3" style="width:  100px; height: 50px;"></button> <p style="color: white;" class="inlineBlock" id="nebula3PurchaseMult"></p> </div> <br>
+            <div class="coalescence2" style="display: none;"> <button class="nebulaBtns" id="nebula4" style="width:  100px; height: 50px;"></button> <p style="color: white;" class="inlineBlock" id="nebula4PurchaseMult"></p> </div> <br>
+            <div class="coalescence2" style="display: none;"> <button class="nebulaBtns" id="nebula5" style="width:  100px; height: 50px;"></button> <p style="color: white;" class="inlineBlock" id="nebula5PurchaseMult"></p> </div> <br>
+            <div class="coalescence3" style="display: none;"> <button class="nebulaBtns" id="nebula6" style="width:  100px; height: 50px;"></button> <p style="color: white;" class="inlineBlock" id="nebula6PurchaseMult"></p> </div> <br>
+            <div class="coalescence3" style="display: none;"> <button class="nebulaBtns" id="nebula7" style="width:  100px; height: 50px;"></button> <p style="color: white;" class="inlineBlock" id="nebula7PurchaseMult"></p> </div> <br>
+            <div class="coalescence4" style="display: none;"> <button class="nebulaBtns" id="nebula8" style="width:  100px; height: 50px;"></button> <p style="color: white;" class="inlineBlock" id="nebula8PurchaseMult"></p> </div> <br>
+            <div class="coalescence4" style="display: none;"> <button class="nebulaBtns" id="nebula9" style="width:  100px; height: 50px;"></button> <p style="color: white;" class="inlineBlock" id="nebula9PurchaseMult"></p> </div>
+            </div>
+
+            <br><br>
+
+            <div class="minorResets">
+                
+                <div class="coalescence">
+                    <button id="coalesceBtn"   > COALESCE <br><br> Requires: 11 ?????? 1.</button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="bottomBar">
+        <button style="margin-top: 60%;" id="saveButton">Save</button>
+        <button style="margin-top: 60%;" id="loadButton">Load</button> <br>
+        <button style="margin-top: 10%;" id="resetButton">!!Resets All Data!! No Confirmation!!</button>
+    </div>
+
+</body>
+</html>
