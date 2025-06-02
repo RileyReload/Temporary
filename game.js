@@ -220,7 +220,7 @@ $("#nebula1").click(function() {
             $("#coalesceBtn").show();
         }
     }
-    player.resources.stars += 1e200;
+    
 }) 
 
 $("#nebula2").click(function() {
